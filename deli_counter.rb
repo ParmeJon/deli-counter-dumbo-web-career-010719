@@ -4,14 +4,14 @@ def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{katz_deli.to_s}"
+    puts "The line is currently: #{}"
   end
 end
 
 def current_line_helper(katz_deli)
   current_line = ""
   katz_deli.each_with_index do |name, position|
-    current_line += "#{position.to_i + 1}. "
+    current_line += "#{position.to_i + 1}. #{name}"
   end
 end
 
