@@ -9,7 +9,7 @@ def line(katz_deli)
 end
 
 def current_line_helper(katz_deli)
-  katz_deli.each 
+  katz_deli.each_with_index 
 end
 
 def take_a_number(katz_deli, name)
