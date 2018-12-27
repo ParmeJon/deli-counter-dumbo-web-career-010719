@@ -9,9 +9,9 @@ def line(katz_deli)
 end
 
 def current_line_helper(katz_deli)
-  current_line = []
+  current_line = ""
   katz_deli.each_with_index do |name, position|
-    current_line
+    current_line += "#{position}. "
   end
 end
 
