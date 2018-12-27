@@ -12,3 +12,6 @@ def take_a_number(katz_deli, name)
   position = katz_deli.length + 1
   puts "#{name} is number #{position}."
 end
+
+def now_serving
+end
