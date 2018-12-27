@@ -18,12 +18,8 @@ end
 
 def take_a_number(katz_deli, name)
   position = katz_deli.length + 1
-  if katz_deli.length == 0
     puts "Welcome, #{name}. You are number #{position} in line."
     katz_deli.push(name)
-  else
-    puts "Welcome, #{name}. "
-  end
 end
 
 def now_serving
