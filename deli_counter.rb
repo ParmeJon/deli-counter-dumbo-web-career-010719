@@ -8,6 +8,10 @@ def line(katz_deli)
   end
 end
 
+def current_line_helper(katz_deli)
+  
+end
+
 def take_a_number(katz_deli, name)
   position = katz_deli.length + 1
   puts "#{name} is number #{position}."
