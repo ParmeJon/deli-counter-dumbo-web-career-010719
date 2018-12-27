@@ -11,7 +11,7 @@ end
 def current_line_helper(katz_deli)
   current_line = ""
   katz_deli.each_with_index do |name, position|
-    current_line += "#{position.to_i + 1}. #{name}"
+    current_line += "#{position.to_i + 1}. #{name} "
   end
   return current_line
 end
