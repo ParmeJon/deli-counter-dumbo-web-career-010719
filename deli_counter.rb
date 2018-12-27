@@ -5,3 +5,7 @@ def line
     return "The line is currently empty."
   end
 end
+
+def take_a_number(katz_deli, name)
+  position = katz_deli.length
+end
